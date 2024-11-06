@@ -1,12 +1,6 @@
  
 # Simple Snake Game in python 3
- 
- 
- 
- 
- 
- 
- 
+
 import turtle
  
 import time
