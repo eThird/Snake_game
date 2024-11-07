@@ -39,7 +39,7 @@ wn.tracer(0) # Turns off the screen updates
  
  
  
-# Snake head
+# Snake head of squre 
  
 head = turtle.Turtle()
  
@@ -58,7 +58,7 @@ head.direction = "stop"
  
  
  
-# Snake food
+# Snake foood
  
 food = turtle.Turtle()
  
@@ -80,7 +80,7 @@ segments = []
  
  
  
-# Pen
+# Pen for writing score 
  
 pen = turtle.Turtle()
  
@@ -101,7 +101,7 @@ pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 24, "norma
  
  
  
-# Functions
+# Functions for moments and stuff
  
 def go_up():
  
@@ -177,7 +177,7 @@ def move():
  
  
  
-# Keyboard bindings
+# Keyboard bindings/setting up keyboards keys
  
 wn.listen()
  
@@ -201,7 +201,7 @@ while True:
  
  
  
-  # Check for a collision with the border
+  # Check for a collision with the bodr
  
   if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:
  
